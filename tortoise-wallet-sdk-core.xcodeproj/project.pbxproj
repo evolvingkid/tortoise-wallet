@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F68C4E9429FA938100F74E59 /* tortoise_wallet_sdk_core.docc in Sources */ = {isa = PBXBuildFile; fileRef = F68C4E9329FA938100F74E59 /* tortoise_wallet_sdk_core.docc */; };
+		F68C4E9A29FA938100F74E59 /* tortoise_wallet_sdk_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68C4E8F29FA938100F74E59 /* tortoise_wallet_sdk_core.framework */; };
+		F68C4E9F29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C4E9E29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift */; };
+		F68C4EA029FA938100F74E59 /* tortoise_wallet_sdk_core.h in Headers */ = {isa = PBXBuildFile; fileRef = F68C4E9229FA938100F74E59 /* tortoise_wallet_sdk_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68C4E9B29FA938100F74E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68C4E8629FA938100F74E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68C4E8E29FA938100F74E59;
+			remoteInfo = "tortoise-wallet-sdk-core";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F68C4E8F29FA938100F74E59 /* tortoise_wallet_sdk_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tortoise_wallet_sdk_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68C4E9229FA938100F74E59 /* tortoise_wallet_sdk_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tortoise_wallet_sdk_core.h; sourceTree = "<group>"; };
+		F68C4E9329FA938100F74E59 /* tortoise_wallet_sdk_core.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = tortoise_wallet_sdk_core.docc; sourceTree = "<group>"; };
+		F68C4E9929FA938100F74E59 /* tortoise-wallet-sdk-coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tortoise-wallet-sdk-coreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68C4E9E29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tortoise_wallet_sdk_coreTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68C4E8C29FA938100F74E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C4E9629FA938100F74E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C4E9A29FA938100F74E59 /* tortoise_wallet_sdk_core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F68C4E8529FA938100F74E59 = {
+			isa = PBXGroup;
+			children = (
+				F68C4E9129FA938100F74E59 /* tortoise-wallet-sdk-core */,
+				F68C4E9D29FA938100F74E59 /* tortoise-wallet-sdk-coreTests */,
+				F68C4E9029FA938100F74E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68C4E9029FA938100F74E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68C4E8F29FA938100F74E59 /* tortoise_wallet_sdk_core.framework */,
+				F68C4E9929FA938100F74E59 /* tortoise-wallet-sdk-coreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68C4E9129FA938100F74E59 /* tortoise-wallet-sdk-core */ = {
+			isa = PBXGroup;
+			children = (
+				F68C4E9229FA938100F74E59 /* tortoise_wallet_sdk_core.h */,
+				F68C4E9329FA938100F74E59 /* tortoise_wallet_sdk_core.docc */,
+			);
+			path = "tortoise-wallet-sdk-core";
+			sourceTree = "<group>";
+		};
+		F68C4E9D29FA938100F74E59 /* tortoise-wallet-sdk-coreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68C4E9E29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift */,
+			);
+			path = "tortoise-wallet-sdk-coreTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F68C4E8A29FA938100F74E59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C4EA029FA938100F74E59 /* tortoise_wallet_sdk_core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F68C4E8E29FA938100F74E59 /* tortoise-wallet-sdk-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68C4EA329FA938100F74E59 /* Build configuration list for PBXNativeTarget "tortoise-wallet-sdk-core" */;
+			buildPhases = (
+				F68C4E8A29FA938100F74E59 /* Headers */,
+				F68C4E8B29FA938100F74E59 /* Sources */,
+				F68C4E8C29FA938100F74E59 /* Frameworks */,
+				F68C4E8D29FA938100F74E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tortoise-wallet-sdk-core";
+			productName = "tortoise-wallet-sdk-core";
+			productReference = F68C4E8F29FA938100F74E59 /* tortoise_wallet_sdk_core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F68C4E9829FA938100F74E59 /* tortoise-wallet-sdk-coreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68C4EA629FA938100F74E59 /* Build configuration list for PBXNativeTarget "tortoise-wallet-sdk-coreTests" */;
+			buildPhases = (
+				F68C4E9529FA938100F74E59 /* Sources */,
+				F68C4E9629FA938100F74E59 /* Frameworks */,
+				F68C4E9729FA938100F74E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68C4E9C29FA938100F74E59 /* PBXTargetDependency */,
+			);
+			name = "tortoise-wallet-sdk-coreTests";
+			productName = "tortoise-wallet-sdk-coreTests";
+			productReference = F68C4E9929FA938100F74E59 /* tortoise-wallet-sdk-coreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68C4E8629FA938100F74E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F68C4E8E29FA938100F74E59 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F68C4E9829FA938100F74E59 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F68C4E8929FA938100F74E59 /* Build configuration list for PBXProject "tortoise-wallet-sdk-core" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68C4E8529FA938100F74E59;
+			productRefGroup = F68C4E9029FA938100F74E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68C4E8E29FA938100F74E59 /* tortoise-wallet-sdk-core */,
+				F68C4E9829FA938100F74E59 /* tortoise-wallet-sdk-coreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68C4E8D29FA938100F74E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C4E9729FA938100F74E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68C4E8B29FA938100F74E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C4E9429FA938100F74E59 /* tortoise_wallet_sdk_core.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C4E9529FA938100F74E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68C4E9F29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68C4E9C29FA938100F74E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68C4E8E29FA938100F74E59 /* tortoise-wallet-sdk-core */;
+			targetProxy = F68C4E9B29FA938100F74E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F68C4EA129FA938100F74E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F68C4EA229FA938100F74E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F68C4EA429FA938100F74E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GL6ADTZ5RS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tortoisehq.tortoise-wallet-sdk-core";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F68C4EA529FA938100F74E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GL6ADTZ5RS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tortoisehq.tortoise-wallet-sdk-core";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F68C4EA729FA938100F74E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL6ADTZ5RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tortoisehq.tortoise-wallet-sdk-coreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F68C4EA829FA938100F74E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL6ADTZ5RS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tortoisehq.tortoise-wallet-sdk-coreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68C4E8929FA938100F74E59 /* Build configuration list for PBXProject "tortoise-wallet-sdk-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C4EA129FA938100F74E59 /* Debug */,
+				F68C4EA229FA938100F74E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68C4EA329FA938100F74E59 /* Build configuration list for PBXNativeTarget "tortoise-wallet-sdk-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C4EA429FA938100F74E59 /* Debug */,
+				F68C4EA529FA938100F74E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68C4EA629FA938100F74E59 /* Build configuration list for PBXNativeTarget "tortoise-wallet-sdk-coreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68C4EA729FA938100F74E59 /* Debug */,
+				F68C4EA829FA938100F74E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68C4E8629FA938100F74E59 /* Project object */;
+}
