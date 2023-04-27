@@ -9,7 +9,7 @@ import Foundation
 
 public class TortoiseWalletSDKCore {
     
-    init(secret: String, key: String) {
+   public init(secret: String, key: String) {
         print("app init")
     }
     

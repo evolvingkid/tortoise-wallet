@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0CxAo8Y0GSTt9DIDEsjkxRmrYOI=
+		OH9wNdSv3hrSW13LQIhMxATVprI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+e8GzUjKFbjuoBB8tX0IB3zXtnY=
+		Fxd+paY4r5mwjOPOY+kI8CTGxPQ=
 		</data>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bqr4jB43ZJPYDmcocO5tSD7OGsA=
+		OjFWJufh1li0IOlSzjbAdCHsF88=
 		</data>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		JmvkHQdV0aQZPZSVOCoe8gsB61s=
+		AOnEDtZlOaBcuH1A6m+VJKKBLHc=
 		</data>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bqr4jB43ZJPYDmcocO5tSD7OGsA=
+		OjFWJufh1li0IOlSzjbAdCHsF88=
 		</data>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qw4caA45mE15m2vcthGq0makNWM=
+		/lN1j8WNinyhGx8aUqbjMnc9Sqc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -68,35 +68,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			caq5pnDNk2fNbM40UtRaDzZKLFcohNs/t4vY74vDjaM=
+			Fto9TWs0+L80zGRb89jEyyvw34+Xc2Rdzw1St2DmRNE=
 			</data>
 		</dict>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2EHo0Zzkd6dqUHakRxHgOvTT2f5vi0ybhk4lD0CwOo=
+			BpeWhZR1cKcY3KsQZhD1mvUUDIJF/F5JEjw+XIqcBF8=
 			</data>
 		</dict>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WxCMSNTqkdOfbaCpo/aImkPZgMJGmkq9+wF1cvtmE3A=
+			zokGe0chI9WW+TYQ3Abx0jafqZBlewZReUf4OrVffIU=
 			</data>
 		</dict>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2EHo0Zzkd6dqUHakRxHgOvTT2f5vi0ybhk4lD0CwOo=
+			BpeWhZR1cKcY3KsQZhD1mvUUDIJF/F5JEjw+XIqcBF8=
 			</data>
 		</dict>
 		<key>Modules/tortoise_wallet_sdk_core.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjv78g28JLZf3RXXwi2OyZwl1X4AgbovZR7oCxQxAOY=
+			rGR0Mcut7ShbQWGFAqsKE2OSIUpM/OGpK6esQ1GSNj8=
 			</data>
 		</dict>
 	</dict>

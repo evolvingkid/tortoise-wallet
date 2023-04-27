@@ -18,14 +18,48 @@
         "kind": "TypeDecl",
         "name": "TortoiseWalletSDKCore",
         "printedName": "TortoiseWalletSDKCore",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(secret:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TortoiseWalletSDKCore",
+                "printedName": "tortoise_wallet_sdk_core.TortoiseWalletSDKCore",
+                "usr": "s:24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC6secret3keyACSS_SStcfc",
+            "mangledName": "$s24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC6secret3keyACSS_SStcfc",
+            "moduleName": "tortoise_wallet_sdk_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Class",
         "usr": "s:24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC",
         "mangledName": "$s24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC",
         "moduleName": "tortoise_wallet_sdk_core",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       }
     ],
     "json_format_version": 8
