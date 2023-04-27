@@ -1,0 +1,11 @@
+framework module tortoise_wallet_sdk_core {
+  umbrella header "tortoise_wallet_sdk_core.h"
+
+  export *
+  module * { export * }
+}
+
+module tortoise_wallet_sdk_core.Swift {
+  header "tortoise_wallet_sdk_core-Swift.h"
+  requires objc
+}

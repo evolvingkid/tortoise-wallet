@@ -11,6 +11,7 @@
 		F68C4E9A29FA938100F74E59 /* tortoise_wallet_sdk_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68C4E8F29FA938100F74E59 /* tortoise_wallet_sdk_core.framework */; };
 		F68C4E9F29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C4E9E29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift */; };
 		F68C4EA029FA938100F74E59 /* tortoise_wallet_sdk_core.h in Headers */ = {isa = PBXBuildFile; fileRef = F68C4E9229FA938100F74E59 /* tortoise_wallet_sdk_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68C4EAC29FA95DA00F74E59 /* TortoiseWalletSDKCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C4EAB29FA95DA00F74E59 /* TortoiseWalletSDKCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F68C4E9329FA938100F74E59 /* tortoise_wallet_sdk_core.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = tortoise_wallet_sdk_core.docc; sourceTree = "<group>"; };
 		F68C4E9929FA938100F74E59 /* tortoise-wallet-sdk-coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tortoise-wallet-sdk-coreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68C4E9E29FA938100F74E59 /* tortoise_wallet_sdk_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tortoise_wallet_sdk_coreTests.swift; sourceTree = "<group>"; };
+		F68C4EAB29FA95DA00F74E59 /* TortoiseWalletSDKCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortoiseWalletSDKCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F68C4E9229FA938100F74E59 /* tortoise_wallet_sdk_core.h */,
 				F68C4E9329FA938100F74E59 /* tortoise_wallet_sdk_core.docc */,
+				F68C4EAB29FA95DA00F74E59 /* TortoiseWalletSDKCore.swift */,
 			);
 			path = "tortoise-wallet-sdk-core";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68C4E9429FA938100F74E59 /* tortoise_wallet_sdk_core.docc in Sources */,
+				F68C4EAC29FA95DA00F74E59 /* TortoiseWalletSDKCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +272,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -323,6 +329,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -335,6 +343,7 @@
 		F68C4EA429FA938100F74E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -345,7 +354,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -360,7 +369,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,6 +381,7 @@
 		F68C4EA529FA938100F74E59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -380,7 +392,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -395,7 +407,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,6 +419,7 @@
 		F68C4EA729FA938100F74E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GL6ADTZ5RS;
@@ -425,6 +440,7 @@
 		F68C4EA829FA938100F74E59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GL6ADTZ5RS;

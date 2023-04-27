@@ -1,0 +1,34 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tortoise_wallet_sdk_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TortoiseWalletSDKCore",
+        "printedName": "TortoiseWalletSDKCore",
+        "declKind": "Class",
+        "usr": "s:24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC",
+        "mangledName": "$s24tortoise_wallet_sdk_core21TortoiseWalletSDKCoreC",
+        "moduleName": "tortoise_wallet_sdk_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
